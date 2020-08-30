@@ -1,0 +1,17 @@
+spring:
+  redis:
+    host: ark.com
+    port: 16379
+    database: 0
+    password: 123456
+#    jedis:
+#      pool:
+#        max-active: 8
+#        max-wait: -1ms
+#        max-idle: 8
+#        min-idle: 0
+    timeout: 500
+  cache:
+    type: redis
+    redis:
+      time-to-live: 120
